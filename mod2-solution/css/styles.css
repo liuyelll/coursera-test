@@ -13,13 +13,14 @@ h1{
     padding: 5px;
 }
 .s1{
-    background-color: cadetblue;
+    background-color: #FFC0CB;
 }
 .s2{
-    background-color: chocolate;
+    background-color: #B22222;
+    color:white;
 }
 .s3{
-    background-color: cornflowerblue;
+    background-color: #FFF8DC;
 }
 p{
     margin: 10px;
@@ -31,28 +32,33 @@ p{
         float: left;
         border: 1px solid black;
         width: 31.33%;
-        background-color: mistyrose;
+        background-color:#A9A9A9;
         margin: 1%;
+        height:150px;
+        padding-bottom: 10px;
+        overflow: hidden;
     }
 }
+/* --------middle----------- */
 @media (max-width: 991px) and (min-width: 768px){
     .col-md-6{
         float: left;
         border: 1px solid black;
         width: 48%;
-        background-color: mistyrose;
+        background-color: #A9A9A9;
         margin: 1%;
     }
     .full{
         width: 98%;
     }
 }
+/* --------small----------- */
 @media (max-width: 767px) {
     .col-sm-12{
         float: left;
         border: 1px solid black;
         width: 98%;
-        background-color: mistyrose;
+        background-color: #A9A9A9;
         margin: 1%;
     }
 }
