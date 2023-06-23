@@ -14,13 +14,19 @@ h1{
 }
 .s1{
     background-color: #FFC0CB;
+    border-left: 2px solid black;
+    border-bottom:2px solid black;
 }
 .s2{
     background-color: #B22222;
     color:white;
+    border-left: 2px solid black;
+    border-bottom:2px solid black;
 }
 .s3{
     background-color: #FFF8DC;
+    border-left: 2px solid black;
+    border-bottom:2px solid black;
 }
 p{
     margin: 10px;
@@ -30,11 +36,10 @@ p{
 @media (min-width: 992px) {
     .col-lg-4{
         float: left;
-        border: 1px solid black;
+        border: 2px solid black;
         width: 31.33%;
         background-color:#A9A9A9;
         margin: 1%;
-        height:150px;
         padding-bottom: 10px;
         overflow: hidden;
     }
@@ -43,7 +48,7 @@ p{
 @media (max-width: 991px) and (min-width: 768px){
     .col-md-6{
         float: left;
-        border: 1px solid black;
+        border: 2px solid black;
         width: 48%;
         background-color: #A9A9A9;
         margin: 1%;
@@ -56,7 +61,7 @@ p{
 @media (max-width: 767px) {
     .col-sm-12{
         float: left;
-        border: 1px solid black;
+        border: 2px solid black;
         width: 98%;
         background-color: #A9A9A9;
         margin: 1%;
