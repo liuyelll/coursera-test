@@ -1,6 +1,62 @@
 body{
     font-size: 16px;
-    color: #fff;
-    background-color: #61122f;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Sen', sans-serif;
+}
+header{
+    background-color: gray;
+}
+#web-title{
+    font-size: 30px;
+}
+button.navbar-toggler:hover{
+    background-color: #adb5bd;
+}
+#navbarNav li{
+    text-align: center;
+    background-color: white;
+    border: black solid 1px;
+    font-weight: bold;
+}
+#navbarNav li:hover{
+    background-color: gray;
+}
+h1{
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+#menu-space{
+    background-color: gray;
+}
+#menu-space h5{
+    text-align: center;
+    margin: 5px;
+    padding-top: 8px;
+}
+#menu-space p{
+    padding: 10px;
+
+}
+/*********** large devices ****************/
+@media (min-width: 1200px) {
+    #navbarNav li{
+        display: none;
+    }
+}
+/*********** medium devices ****************/
+@media (min-width: 992px) and (max-width: 1199px){
+    #navbarNav li{
+        display: none;
+    }
+}
+/*********** small devices ****************/
+@media (min-width: 768px) and (max-width: 991px) {
+    #navbarNav li{
+        display: none;
+    }
+}
+/*********** extra small ****************/
+@media (max-width: 767px) {
+    #menu-space {
+        margin: 20px;
+    }
 }
